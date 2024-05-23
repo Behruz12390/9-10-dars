@@ -1,5 +1,174 @@
-*{
-    margin: 0;
+* {
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+}
+
+.container {
+    width: 1340px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+}
+
+ul a {
+    color: #333333;
+}
+
+.d {
+    background-color: #F3D7B7;
+    width: 100%;
+    height: 720px;
+    margin-bottom: 160px;
+}
+
+.hh {
+    padding-bottom: 74.86px;
+    padding-top: 135px;
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+}
+
+.hero-text {
+    width: 372px;
+    height: 237.37px;
+}
+
+.p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.hero-img {
+    background-image: url("./assets/images/Rectangle\ 678.svg");
+    background-size: cover;
+    background-position: center;
+    transform: scale(1.2);
+    transform: translateY(50px);
+    position: relative;
+    width: 660px;
+    height: 390px;
+    left: 650px;
+    top: -150px;
+}
+
+.hero-img>img {
+    position: absolute;
+    top: -100px;
+    left: -100px
+}
+
+.pnad {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #333333;
+}
+
+.pnad2 {
+    font-family: Roboto;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 56.25px;
+    text-align: left;
+    color: #000000;
+    padding-bottom: 64px;
+}
+
+.pni {
+    margin-right: 318px;
+}
+
+.widh {
+    width: 646.39px;
+    height: 327.49px;
+}
+
+.dfjc {
+    display: flex;
+    padding-bottom: 216px;
+}
+
+.clas {
+    background-color: #C99B67;
+    width: 100%;
+    height: 510px;
+}
+
+.phero {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #FFFFFF;
+    padding-bottom: 105px;
+}
+
+.hhero {
+    font-family: Roboto;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: left;
+    color: #FFFFFF;
+    padding-top: 109px;
+    padding-bottom: 28px;
+}
+
+.p111 {
+    width: 664px;
+    height: 268px;
+}
+
+.imgg {
+    position: relative;
+}
+
+.imgg>img {
+    position: absolute;
+    top: -420px;
+    left: 732px;
+}
+
+.dssa {
+    width: 100%;
+    height: 143px;
+    background-color: #F3D7B7;
+    display: flex;
+    align-items: center;
+}
+.iconsv{
+    display: flex;
+    gap: 20px;
+}
+.dfcr{
+    display: flex;
+    align-items: center;
+}
+.imgdf{
+    padding-right: 225px;
+}
+.pr33{
+    padding-right: 368px;
 }
